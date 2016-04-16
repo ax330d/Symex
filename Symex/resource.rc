@@ -1,0 +1,29 @@
+IDI_ICON1 ICON "icons\logo.ico"
+
+#include <windows.h>
+
+VS_VERSION_INFO VERSIONINFO
+    FILEVERSION     1,0,3
+    PRODUCTVERSION  1,0,3
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904E4"
+        BEGIN
+            VALUE "CompanyName",        "Arthur Gerkis"
+            VALUE "FileDescription",    "Resolves symbols\0"
+            VALUE "FileVersion",        "1, 0, 3\0"
+            VALUE "InternalName",       "Symex\0"
+            VALUE "LegalCopyright",     "Copyright (C) 2016\0"
+            VALUE "LegalTrademarks",    "\0"
+            VALUE "OriginalFilename",   "symex.exe\0"
+            VALUE "ProductName",        "Symex\0"
+            VALUE "ProductVersion",     "1, 0, 3\0"
+        END
+    END
+
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
