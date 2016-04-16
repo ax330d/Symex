@@ -1,5 +1,7 @@
 # Symex
 
+## About and usage
+
 This is a tool to resolve symbols of running application. You provide
 application PID, module name and offset (or address) to resolve.
 
@@ -20,3 +22,7 @@ resolved symbol (last line in paste).
 
 By default Symex considers that symbols are in C:\\Symbols. You can
 overide this with -s (or --symbol-path).
+
+## Disclaimer
+
+Some parts of code are taken somewhere from internet.
